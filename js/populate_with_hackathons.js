@@ -6,7 +6,7 @@ function create_clickable_icon(link){
     imgElem.classList.add("link-icon");
 
     if (link.includes("github.com")) {
-        imgElem.src = "images/icons/github_icon_white_6.png";
+        imgElem.src = "images/icons/github_icon_white_9.ico";
         imgElem.alt = "GitHub Link";
         aElem.classList.add("icon-github");
         aElem.setAttribute('title', "Github link");
