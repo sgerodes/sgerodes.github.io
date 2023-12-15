@@ -1,0 +1,230 @@
+[
+    {
+        "project_name": "SuperWallet - Multi-Chain Digital Asset Management Platform",
+        "hackathon": "ETHGlobal ETHOnline 2023",
+        "start_date": "2023-10-06 00:00:00",
+        "end_date": "2023-10-27 00:00:00",
+        "display_date": "Oct 2023",
+        "description": "A multi-chain transaction system built using solidity, enabling asset transfers and digital asset management across multiple blockchains with a single user signature. It integrates smart contract wallets, social logins via Particle Network, and cross-chain transactions powered by Axelar GMP. The platform simplifies user interactions through Biconomy account abstraction, supporting multiple networks like Scroll Sepoli, Polygon Mumbai, Avalanche and Mantle for diverse user exploration and experimentation",
+        "technologies": [
+            "Typescript",
+            "Biconomy",
+            "Next.js",
+            "solidity",
+            "Axelar"
+        ],
+        "links": [
+            "https://github.com/super-wallet-001",
+            "https://ethglobal.com/showcase/superwallet-wvqtj"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Web3 Survey and Bounty Platform with Anonymous NFT Authentication Participation",
+        "hackathon": "ETHRome 2023",
+        "start_date": "2023-10-06 00:00:00",
+        "end_date": "2023-10-08 00:00:00",
+        "display_date": "Oct 2023",
+        "description": "A blockchain-based platform facilitating anonymous survey participation with incentives, using zk proofs for NFT authentication and a pseudo-anonymous bounty system. It integrates Semaphore for privacy- preserving group membership proofs, with contracts deployed on Gnosis mainnet. It leverages the Graph for real-time data querying, enhancing the app's transparency and reliability. The app, built with Web3 technologies, enables users to engage in surveys, validate NFT holdings, and earn rewards, enhancing the digital survey experience with confidentiality and security.",
+        "technologies": [
+            "Solidity",
+            "Graph protocol",
+            "Typescript",
+            "Gnosis"
+        ],
+        "links": [
+            "https://github.com/Squalome/sharknado",
+            "https://taikai.network/ethrome/hackathons/ethrome-23/projects/clnfyh1ya00gmye01j19ob1rz/idea"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "SITA - DeFi IoT Agricultural Lending Platform",
+        "hackathon": "ETHGlobal Paris 2023",
+        "start_date": "2023-07-21 00:00:00",
+        "end_date": "2023-07-23 00:00:00",
+        "display_date": "Jul 2023",
+        "description": "A blockchain lending platform for farmers, leveraging IoT devices and satellite data to inform credit lines. It employs ESP32 hardware for real-time soil data analysis, integrating metrics like Nitrogen, Phosphorus, Potassium levels, temperature, and humidity. The platform utilizes Chainlink for data aggregation and Distributed Oracles for creditworthiness assessment. It features Biconomy Social login and Walletconnect for user convenience, with WorldCoin for distinct user verification and transparent voting. SITA utilizies nft.storage for decentralized data storage and the ERC 6551 standard for liquidity and loan management.",
+        "technologies": [
+            "React",
+            "solidity",
+            "smart contracts",
+            "iot",
+            "chainlink",
+            "biconomy",
+            "Account abstraction",
+            "worldcoin"
+        ],
+        "links": [
+            "https://github.com/EGP-2023/SITA",
+            "https://ethglobal.com/showcase/sita-tsmvv"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Privacy-Centric DeFi Protocol with Zero-Knowledge Asset Management",
+        "hackathon": "ETHPrague 2023",
+        "start_date": "2023-06-09 00:00:00",
+        "end_date": "2023-06-11 00:00:00",
+        "display_date": "Jun 2023",
+        "description": "A DeFi protocol enhancing privacy for asset managers and investors. It employs zero-knowledge proofs to allow users to interact with DeFi lending protocols like PWN without disclosing their collateral assets. The platform utilizes NFTs to represent the value of these assets, enabling transactions and management within the ecosystem while maintaining user anonymity. With a focus on a seamless user experience, the protocol ensures only the NFTs are public, safeguarding the privacy of the user's portfolio. The architecture integrates AA standards and specialized wallets to facilitate this process on the blockchain",
+        "technologies": [
+            "solidity",
+            "react",
+            "typescript",
+            "PWN",
+            "zero-knowledge",
+            "railgun"
+        ],
+        "links": [
+            "https://github.com/orgs/EthPrague-2023/",
+            "https://devfolio.co/projects/saunabound-steaming-ahead-5b14"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Front Door - Blockchain-Enhanced Recruitment Platform",
+        "hackathon": "ETHGlobal HackFS",
+        "start_date": "2023-06-02 00:00:00",
+        "end_date": "2023-06-26 00:00:00",
+        "display_date": "Jun 2023",
+        "description": "Front-Door is a Web3-enabled open referral plaform, it leverages blockchain technology to modernize the recruitment process, creating an open referral protocol that streamlines the job market. The platform integrates smart contracts for immutable transaction records and Ceramic Network for dynamic off-chain data management. It employs Solidity for smart contract functions, enabling job postings, referrals, and candidate registrations with Huddle01 integration for live interviews.",
+        "technologies": [
+            "Typescript",
+            "Ceramic",
+            "Solidity",
+            "Filecoin"
+        ],
+        "links": [
+            "https://github.com/front-doorxyz/web-app",
+            "https://ethglobal.com/showcase/front-door-tqt2k"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "LocalPro - Decentralized Workforce Management with zk Proofs and PolygonID",
+        "hackathon": "ETHGlobal Lisbon 2023",
+        "start_date": "2023-05-12 00:00:00",
+        "end_date": "2023-05-14 00:00:00",
+        "display_date": "May 2023",
+        "description": "A platform enabling collaboration between global organizations and local workers, integrating on-chain credential verification and incentivization for local offline work. The platform uses PolygonID and ZK proofs for trustless identity verification and data privacy. It features a user flow from onboarding to settlement, including a \"proof of performance\" system for worker verification. LocalPro employs Safe and zkBob for automated and private payments.",
+        "technologies": [
+            "typescript",
+            "solidity",
+            "Polygon ID",
+            "zkBob",
+            "zk proofs",
+            "Gnosis Safe",
+            "Account Abstraction"
+        ],
+        "links": [
+            "https://github.com/EthGlobalLisbon2023/local-pro",
+            "https://ethglobal.com/showcase/localpro-xckra"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Caffeine Consensus - Enterprise PKI Integration for Blockchain Transactions",
+        "hackathon": "ETHZ\u00fcrich 2023",
+        "start_date": "2023-04-14 00:00:00",
+        "end_date": "2023-04-16 00:00:00",
+        "display_date": "Apr 2023",
+        "description": "We have build a solution enabling large enterprises and government organizations to utilize their existing Public Key Infrastructure (PKI) and digital certificates (X.509) for signing and sponsoring transactions.",
+        "technologies": [
+            "Typescript",
+            "Solidity",
+            "Account Abstraction (ERC-4337)"
+        ],
+        "links": [
+            "https://github.com/orgs/CaffeineConsensus/repositories",
+            "https://devfolio.co/projects/caffeine-consensus-ee2b"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Futarchy Bot - Polkassembly Governance Enhancement with Zeitgeist",
+        "hackathon": "Polkadot Hackathon: Europe Edition, Online",
+        "start_date": "2023-01-25 00:00:00",
+        "end_date": "2023-02-17 00:00:00",
+        "display_date": "Jan 2023",
+        "description": "Futurachy is a blockchain-based platform that incentivizes altruistic on-chain governance by creating Zeitgeist predictions markets for governance proposals from Polkassembly. This project leverages technologies like the Subsquid indexer, GraphQL, Zeitgeist prediction markets and automated bots to enhance decentralized decision-making and community engagement in governance processes. The system automatically creates and updates Zeitgeist markets for governance proposals from Polkassembly, utilizing an automated bot to post updates back to the platform. I was responsible for the intergration of the Zeitgeist api into the project.",
+        "technologies": [
+            "Subsquid",
+            "Substrate",
+            "GraphQL",
+            "node",
+            "javasript",
+            "polkasembly",
+            "Zeitgeist"
+        ],
+        "links": [
+            "https://github.com/PolkaHack/futarchy"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "RMRK NFT customizer",
+        "hackathon": "Polkadot Metaverse Championship 2022, Budapest",
+        "start_date": "2022-12-05 00:00:00",
+        "end_date": "2022-12-07 00:00:00",
+        "display_date": "Dec 2022",
+        "description": "A NFT customizer for the RMRK metaverse. Our project introduced a game asset minter that empowers users to create and personalize their own digital creatures (Chunkies). This tool increases user engagement by enabling detailed customization of NFTs with diverse colors and accessories, broadening the scope of creativity in blockchain gaming.",
+        "technologies": [
+            "Javascript",
+            "Rust"
+        ],
+        "links": [
+            "https://github.com/KameeKaze/Metaverse"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "Blockchain Security Dashboard",
+        "hackathon": "ETHBrno 2022",
+        "start_date": "2022-11-10 00:00:00",
+        "end_date": "2022-11-13 00:00:00",
+        "display_date": "Nov 2022",
+        "description": "A dashboard that aggregates security metrics about several blockchains like the nakamoto coefficient.",
+        "technologies": [
+            "React",
+            "python"
+        ],
+        "links": [],
+        "prizes": []
+    },
+    {
+        "project_name": "zkSync Patron - Gas Fee Management dApp on zkSync",
+        "hackathon": "ETHLisbon 2022",
+        "start_date": "2022-10-28 00:00:00",
+        "end_date": "2022-10-30 00:00:00",
+        "display_date": "Oct 2022",
+        "description": "zklSync A dApp designed to ease the onboarding of new users to Ethereum-based platforms by managing transaction fees. It allows platforms to pay gas fees on behalf of their users, offering customizable strategies like allocating a specific number of free transactions for new users or distributing free transaction coupons. This service aims to simplify the user experience by overcoming the challenge of acquiring Ether for gas costs, particularly beneficial for platforms seeking to attract new users without the initial friction of transaction fees. The dApp also incorporates measures to prevent DoS attacks.",
+        "technologies": [
+            "React",
+            "solidity",
+            "smart contracts"
+        ],
+        "links": [
+            "https://github.com/matter-labs/ETHLisbon-2022-hackathon/tree/main/submissions/ZKSync Patron",
+            "https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9tzqy4v28668601vt9oj5v2yc/idea"
+        ],
+        "prizes": []
+    },
+    {
+        "project_name": "OIOTrust - Last Will Smart Contract",
+        "hackathon": "ETHPRague 2022",
+        "start_date": "2022-06-10 00:00:00",
+        "end_date": "2022-06-12 00:00:00",
+        "display_date": "Jun 2022",
+        "description": "Last-will-and-testament solution built on the Ethereum blockchain. With Solidity smart contract in and a React-based frontend interface Successfully deployed the contract on an Ethereum Goerli testnet, integrating it with MetaMask for enhanced user authentication. This project attracted potential investor interest, highlighting its practical utility and innovation in digital estate planning.",
+        "technologies": [
+            "React",
+            "solidity",
+            "smart contracts"
+        ],
+        "links": [
+            "https://github.com/OIOLaw"
+        ],
+        "prizes": []
+    }
+]
