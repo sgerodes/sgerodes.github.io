@@ -1,10 +1,18 @@
 .link-icon {
     width: 32px;
     height: auto;
-    margin-left: 10px; /* Space to the left of the icon */
-    margin-right: 10px; /* Space to the right of the icon */
+    margin-left: 10px;
+    margin-right: 10px;
     background: transparent;
 }
+.link-icon-about {
+     width: 43px;
+     height: auto;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     background: transparent;
+}
 .last-section {
-    margin-bottom: 150px; /* or any other size */
+    margin-bottom: 150px;
 }
