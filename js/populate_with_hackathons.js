@@ -25,8 +25,12 @@ function create_clickable_icon(link){
         imgElem.alt = "Taikai Link";
         aElem.classList.add("icon-taikai");
         aElem.setAttribute('title', "Taikai link");
+    } else if (link.includes("youtube.com") || link.includes("youtu.be")) {
+        imgElem.src = "images/icons/youtube_icon_2.png";
+        imgElem.alt = "Youtube Link";
+        aElem.classList.add("icon-youtube");
+        aElem.setAttribute('title', "Youtube link");
     }
-
     aElem.href = link;
     aElem.appendChild(imgElem);
     return aElem;
@@ -71,6 +75,14 @@ function loadAndDisplayHackathonEntries() {
                 entryDiv.appendChild(title);
                 entryDiv.appendChild(date_place);
                 entryDiv.appendChild(description);
+
+                const prizes_and_bounties = entry.prizes.concat(entry.bounties);
+                if (prizes_and_bounties.length > 0) {
+                    const prizes_and_bounties_html = document.createElement('p');
+                    prizes_and_bounties_html.textContent = '🏆 • ' + prizes_and_bounties.join('\u00A0\u00A0 • \u00A0\u00A0');
+                    entryDiv.appendChild(prizes_and_bounties_html);
+                }
+
 
                 containerDiv.appendChild(entryDiv);
                 sectionDiv.appendChild(containerDiv);

@@ -17,7 +17,11 @@
             "https://github.com/super-wallet-001",
             "https://ethglobal.com/showcase/superwallet-wvqtj"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            " Axelar:\ud83e\udd49 Best Use of GMP",
+            "Scroll: Pool PrizeMantle: Pool Price"
+        ]
     },
     {
         "project_name": "Web3 Survey and Bounty Platform with Anonymous NFT Authentication Participation",
@@ -36,7 +40,14 @@
             "https://github.com/Squalome/sharknado",
             "https://taikai.network/ethrome/hackathons/ethrome-23/projects/clnfyh1ya00gmye01j19ob1rz/idea"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            "Graph: \ud83e\udd47Grand Prize",
+            "BuidlGuidl: \ud83e\udd471st place",
+            "Gnosis: Open Innovation",
+            "PSE: \ud83e\udd471st place",
+            "Interface: \ud83c\udfc5 Top 3 Best UX App"
+        ]
     },
     {
         "project_name": "SITA - DeFi IoT Agricultural Lending Platform",
@@ -59,7 +70,11 @@
             "https://github.com/EGP-2023/SITA",
             "https://ethglobal.com/showcase/sita-tsmvv"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            "Polygon: Best Public Good with AA",
+            "Worldcoin: Most Creative Use Case"
+        ]
     },
     {
         "project_name": "Privacy-Centric DeFi Protocol with Zero-Knowledge Asset Management",
@@ -80,7 +95,10 @@
             "https://github.com/orgs/EthPrague-2023/",
             "https://devfolio.co/projects/saunabound-steaming-ahead-5b14"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            "PWN: \ud83e\udd471st prize"
+        ]
     },
     {
         "project_name": "Front Door - Blockchain-Enhanced Recruitment Platform",
@@ -99,7 +117,8 @@
             "https://github.com/front-doorxyz/web-app",
             "https://ethglobal.com/showcase/front-door-tqt2k"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": []
     },
     {
         "project_name": "LocalPro - Decentralized Workforce Management with zk Proofs and PolygonID",
@@ -119,9 +138,17 @@
         ],
         "links": [
             "https://github.com/EthGlobalLisbon2023/local-pro",
-            "https://ethglobal.com/showcase/localpro-xckra"
+            "https://ethglobal.com/showcase/localpro-xckra",
+            "https://www.youtube.com/watch?v=E2Ynuq7Eorc&t=1730s"
         ],
-        "prizes": []
+        "prizes": [
+            "\ud83c\udfc6 ETHGlobal Lisbon Finalist"
+        ],
+        "bounties": [
+            "\ud83c\udd94 Polygon \u2014 \ud83e\udd47 Best use of Polygon ID",
+            "\ud83e\udd1d Polygon \u2014 \ud83e\udd47 Best Public Good with Account Abstraction",
+            " \ud83e\udd49 zkBob \u2014 Best Use"
+        ]
     },
     {
         "project_name": "Caffeine Consensus - Enterprise PKI Integration for Blockchain Transactions",
@@ -135,11 +162,13 @@
             "Solidity",
             "Account Abstraction (ERC-4337)"
         ],
-        "links": [
-            "https://github.com/orgs/CaffeineConsensus/repositories",
-            "https://devfolio.co/projects/caffeine-consensus-ee2b"
+        "links": [],
+        "prizes": [
+            "Judge voting: \ud83e\udd471st place"
         ],
-        "prizes": []
+        "bounties": [
+            "Community voting: \ud83e\udd482nd place"
+        ]
     },
     {
         "project_name": "Futarchy Bot - Polkassembly Governance Enhancement with Zeitgeist",
@@ -147,7 +176,7 @@
         "start_date": "2023-01-25 00:00:00",
         "end_date": "2023-02-17 00:00:00",
         "display_date": "Jan 2023",
-        "description": "Futurachy is a blockchain-based platform that incentivizes altruistic on-chain governance by creating Zeitgeist predictions markets for governance proposals from Polkassembly. This project leverages technologies like the Subsquid indexer, GraphQL, Zeitgeist prediction markets and automated bots to enhance decentralized decision-making and community engagement in governance processes. The system automatically creates and updates Zeitgeist markets for governance proposals from Polkassembly, utilizing an automated bot to post updates back to the platform. I was responsible for the intergration of the Zeitgeist api into the project.",
+        "description": "Futurachy is a blockchain-based platform that incentivizes altruistic on-chain governance by creating Zeitgeist predictions markets for governance proposals from Polkassembly. This project leverages technologies like the Subsquid indexer, GraphQL, Zeitgeist prediction markets and automated bots to enhance decentralized decision-making and community engagement in governance processes. The system automatically creates and updates Zeitgeist markets for governance proposals from Polkassembly, utilizing an automated bot to post updates back to the platform.",
         "technologies": [
             "Subsquid",
             "Substrate",
@@ -160,7 +189,10 @@
         "links": [
             "https://github.com/PolkaHack/futarchy"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            " Zeitgeist Voting Tools bounty"
+        ]
     },
     {
         "project_name": "RMRK NFT customizer",
@@ -176,7 +208,13 @@
         "links": [
             "https://github.com/KameeKaze/Metaverse"
         ],
-        "prizes": []
+        "prizes": [
+            "\ud83e\udd47 1st place"
+        ],
+        "bounties": [
+            "\ud83e\udd47 Judge 1st prize",
+            "\ud83e\udd47 Community voting 1st prize"
+        ]
     },
     {
         "project_name": "Blockchain Security Dashboard",
@@ -190,7 +228,8 @@
             "python"
         ],
         "links": [],
-        "prizes": []
+        "prizes": [],
+        "bounties": []
     },
     {
         "project_name": "zkSync Patron - Gas Fee Management dApp on zkSync",
@@ -208,7 +247,10 @@
             "https://github.com/matter-labs/ETHLisbon-2022-hackathon/tree/main/submissions/ZKSync Patron",
             "https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9tzqy4v28668601vt9oj5v2yc/idea"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": [
+            "zkSync Account Abstraction Bounty"
+        ]
     },
     {
         "project_name": "OIOTrust - Last Will Smart Contract",
@@ -225,6 +267,7 @@
         "links": [
             "https://github.com/OIOLaw"
         ],
-        "prizes": []
+        "prizes": [],
+        "bounties": []
     }
 ]
