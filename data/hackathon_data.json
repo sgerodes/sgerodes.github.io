@@ -19,8 +19,9 @@
         ],
         "prizes": [],
         "bounties": [
-            " Axelar:\ud83e\udd49 Best Use of GMP",
-            "Scroll: Pool PrizeMantle: Pool Price"
+            "Axelar:\ud83e\udd49 Best Use of GMP",
+            "Scroll: Pool Prize",
+            "Mantle: Pool Price"
         ]
     },
     {
@@ -147,7 +148,7 @@
         "bounties": [
             "\ud83c\udd94 Polygon \u2014 \ud83e\udd47 Best use of Polygon ID",
             "\ud83e\udd1d Polygon \u2014 \ud83e\udd47 Best Public Good with Account Abstraction",
-            " \ud83e\udd49 zkBob \u2014 Best Use"
+            "\ud83e\udd49 zkBob \u2014 Best Use"
         ]
     },
     {
@@ -162,7 +163,10 @@
             "Solidity",
             "Account Abstraction (ERC-4337)"
         ],
-        "links": [],
+        "links": [
+            "https://github.com/orgs/CaffeineConsensus/repositories",
+            "https://devfolio.co/projects/caffeine-consensus-ee2b"
+        ],
         "prizes": [
             "Judge voting: \ud83e\udd471st place"
         ],
@@ -191,7 +195,7 @@
         ],
         "prizes": [],
         "bounties": [
-            " Zeitgeist Voting Tools bounty"
+            "Zeitgeist Voting Tools bounty"
         ]
     },
     {
