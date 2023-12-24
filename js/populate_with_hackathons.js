@@ -36,6 +36,29 @@ function create_clickable_icon(link){
     return aElem;
 }
 
+function toggleArrow(dateElement) {
+    if (dateElement.textContent.startsWith('>')) {
+        dateElement.textContent = "v" + dateElement.textContent.substring(1);
+    } else {
+        dateElement.textContent = ">" + dateElement.textContent.substring(1);
+    }
+}
+
+function toggleAccordionContent(headerElement) {
+    toggleArrow(headerElement);
+    var content = headerElement.nextElementSibling;
+
+    if(content.style.maxHeight){
+        content.style.transition = 'max-height 0.1s ease-out';
+        content.style.maxHeight = null;
+    } else {
+        content.style.transition = 'max-height 1s ease-out';
+        content.style.maxHeight = content.scrollHeight + 'px';
+    }
+
+    content.classList.toggle('show-content');
+}
+
 function loadAndDisplayHackathonEntries() {
     fetch('data/hackathon_data.json')
         .then(response => response.json())
@@ -60,7 +83,9 @@ function loadAndDisplayHackathonEntries() {
                 title.textContent = entry.project_name;
 
                 const date_place = document.createElement('p');
-                date_place.textContent = `${entry.display_date} - ${entry.hackathon} `;
+                date_place.textContent = `> \u00A0\u00A0\u00A0\u00A0${entry.display_date} - ${entry.hackathon} `;
+                date_place.classList.add("accordion-header");
+                date_place.setAttribute('onclick', "toggleAccordionContent(this)");
 
                 const description = document.createElement('p');
                 description.textContent = entry.description;
@@ -68,24 +93,35 @@ function loadAndDisplayHackathonEntries() {
                 if (entry.links && entry.links.length > 0) {
                     entry.links.forEach(link => {
                         const icon = create_clickable_icon(link);
-                        date_place.appendChild(icon);
+                        title.appendChild(icon);
                     });
                 }
+                const description_and_prizes_div = document.createElement('div');
+                description_and_prizes_div.classList.add("accordion-content");
+                description_and_prizes_div.appendChild(description);
 
                 entryDiv.appendChild(title);
                 entryDiv.appendChild(date_place);
-                entryDiv.appendChild(description);
+                entryDiv.appendChild(description_and_prizes_div);
 
                 const prizes_and_bounties = entry.prizes.concat(entry.bounties);
                 if (prizes_and_bounties.length > 0) {
                     const prizes_and_bounties_html = document.createElement('p');
-                    prizes_and_bounties_html.textContent = '🏆 • ' + prizes_and_bounties.join('\u00A0\u00A0 • \u00A0\u00A0');
+                    prizes_and_bounties_html.textContent = '🏆: ' + prizes_and_bounties.join('\u00A0\u00A0 • \u00A0\u00A0');
                     entryDiv.appendChild(prizes_and_bounties_html);
                 }
 
 
                 containerDiv.appendChild(entryDiv);
                 sectionDiv.appendChild(containerDiv);
+
+
+                if (entry.is_initially_expanded) {
+                    setTimeout(() => {
+                      toggleAccordionContent(date_place);
+                    }, 0);
+                }
+
                 fullpageContainer.appendChild(sectionDiv);
             });
         })

@@ -22,7 +22,8 @@
             "Axelar:\ud83e\udd49 Best Use of GMP",
             "Scroll: Pool Prize",
             "Mantle: Pool Price"
-        ]
+        ],
+        "is_initially_expanded": true
     },
     {
         "project_name": "Web3 Survey and Bounty Platform with Anonymous NFT Authentication Participation",
@@ -48,7 +49,8 @@
             "Gnosis: Open Innovation",
             "PSE: \ud83e\udd471st place",
             "Interface: \ud83c\udfc5 Top 3 Best UX App"
-        ]
+        ],
+        "is_initially_expanded": true
     },
     {
         "project_name": "SITA - DeFi IoT Agricultural Lending Platform",
@@ -75,7 +77,8 @@
         "bounties": [
             "Polygon: Best Public Good with AA",
             "Worldcoin: Most Creative Use Case"
-        ]
+        ],
+        "is_initially_expanded": true
     },
     {
         "project_name": "Privacy-Centric DeFi Protocol with Zero-Knowledge Asset Management",
@@ -99,7 +102,8 @@
         "prizes": [],
         "bounties": [
             "PWN: \ud83e\udd471st prize"
-        ]
+        ],
+        "is_initially_expanded": false
     },
     {
         "project_name": "Front Door - Blockchain-Enhanced Recruitment Platform",
@@ -119,7 +123,8 @@
             "https://ethglobal.com/showcase/front-door-tqt2k"
         ],
         "prizes": [],
-        "bounties": []
+        "bounties": [],
+        "is_initially_expanded": false
     },
     {
         "project_name": "LocalPro - Decentralized Workforce Management with zk Proofs and PolygonID",
@@ -149,7 +154,8 @@
             "\ud83c\udd94 Polygon \u2014 \ud83e\udd47 Best use of Polygon ID",
             "\ud83e\udd1d Polygon \u2014 \ud83e\udd47 Best Public Good with Account Abstraction",
             "\ud83e\udd49 zkBob \u2014 Best Use"
-        ]
+        ],
+        "is_initially_expanded": true
     },
     {
         "project_name": "Caffeine Consensus - Enterprise PKI Integration for Blockchain Transactions",
@@ -172,7 +178,8 @@
         ],
         "bounties": [
             "Community voting: \ud83e\udd482nd place"
-        ]
+        ],
+        "is_initially_expanded": false
     },
     {
         "project_name": "Futarchy Bot - Polkassembly Governance Enhancement with Zeitgeist",
@@ -196,7 +203,8 @@
         "prizes": [],
         "bounties": [
             "Zeitgeist Voting Tools bounty"
-        ]
+        ],
+        "is_initially_expanded": false
     },
     {
         "project_name": "RMRK NFT customizer",
@@ -218,7 +226,8 @@
         "bounties": [
             "\ud83e\udd47 Judge 1st prize",
             "\ud83e\udd47 Community voting 1st prize"
-        ]
+        ],
+        "is_initially_expanded": true
     },
     {
         "project_name": "Blockchain Security Dashboard",
@@ -233,7 +242,8 @@
         ],
         "links": [],
         "prizes": [],
-        "bounties": []
+        "bounties": [],
+        "is_initially_expanded": false
     },
     {
         "project_name": "zkSync Patron - Gas Fee Management dApp on zkSync",
@@ -254,7 +264,8 @@
         "prizes": [],
         "bounties": [
             "zkSync Account Abstraction Bounty"
-        ]
+        ],
+        "is_initially_expanded": false
     },
     {
         "project_name": "OIOTrust - Last Will Smart Contract",
@@ -272,6 +283,7 @@
             "https://github.com/OIOLaw"
         ],
         "prizes": [],
-        "bounties": []
+        "bounties": [],
+        "is_initially_expanded": false
     }
 ]

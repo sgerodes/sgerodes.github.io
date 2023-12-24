@@ -16,3 +16,22 @@
 .last-section {
     margin-bottom: 150px;
 }
+
+/* Accordion Content - initially hidden */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 4s ease-out; /* Adjust the timing as per your preference */
+}
+
+/* Styling for when the content is visible */
+.show-content {
+    max-height: 500px; /* Set to a value that can accommodate the content size */
+}
+
+.accordion-header {
+    cursor: pointer;
+    /* Other styling for the header */
+    display: flex;
+    align-items: center;
+}
